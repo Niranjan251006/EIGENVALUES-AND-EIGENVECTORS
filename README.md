@@ -15,6 +15,7 @@ Step 4:print the values in format
 Devolped by: NIRANJAN S
 Reg no.: 24900209
 ```
+import numpy as np
 a=np.array([[-2,2,-3],[2,1,-6],[-1,-2,0]])
 val,vect=np.linalg.eig(a)
 print("Eigen values are",val,"and Eigen Vectors are",vect)
